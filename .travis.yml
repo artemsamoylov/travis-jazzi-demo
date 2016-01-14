@@ -1,2 +1,11 @@
 language: objective-c
 osx_image: xcode7.1
+
+cache:
+  #кешируем гемы и пакеты npm 
+  directories:
+    - node_modules
+    - vendor/cache
+
+before_script:
+    - jazzy -h
