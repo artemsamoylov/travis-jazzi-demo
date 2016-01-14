@@ -1,3 +1,3 @@
 source "http://rubygems.org"
 
-gem 'jazzy'
+gem 'jazzy', :git => 'git@github.com:realm/jazzy.git'
